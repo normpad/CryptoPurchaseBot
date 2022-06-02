@@ -1,0 +1,4 @@
+docker stop CryptoPurchaseBot
+docker rm CryptoPurchaseBot
+docker build -t crypto-purchase-bot .
+docker run -d -it --rm --name CryptoPurchaseBot crypto-purchase-bot
